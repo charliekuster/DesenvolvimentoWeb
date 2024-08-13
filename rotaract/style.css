@@ -1,0 +1,272 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+}
+
+body{
+    font-family: 'Montserrat', sans-serif;
+}
+
+header{
+    height: calc(100vh - 250px);
+    background: no-repeat center/cover url('imagens/png/imgHeaderM.png');
+}
+
+nav{
+    display: flex;
+    justify-content: space-between;
+    margin: auto 30px;
+}
+
+nav ul{
+    margin: 30px 0;
+    list-style: none;
+    display: flex;
+}
+
+nav li{
+    margin: 0 15px;
+}
+
+nav a{
+    text-decoration: none;
+    color: #002e6b;
+    border-radius: 5px;
+    transition-duration: 0.5s;
+}
+  
+nav img{
+    margin: -5px 0 0 0;
+    max-width:200px;
+    max-height:150px;
+    width: auto;
+    height: auto;
+}
+
+header h1{
+    text-align: center;
+    font-size: 100px;
+    color: white;
+    text-shadow: 7px 3px 0px rgb(193, 30, 92);
+}
+
+
+main div.conteiner_global{
+    margin: 80px 80px 0px 80px;
+
+}
+
+main h2.historia{
+    color: #002e6b;
+    font-size: 60px;
+    margin: 30px 0px 0px 0px;
+}
+
+main p.Prosa{
+    color: rgb(193, 30, 92);
+    font-weight: 600;
+    margin: 0px 0px 40px 0px;
+    font-size: 20px;
+}
+
+#Pazul{
+    color: rgb(0, 46, 107);
+    font-weight: 600;
+    font-size: 20px;
+}
+
+main div.conteiner{
+    display: flex;
+    justify-content: left;
+    align-items: center;
+    width: 100%;
+}
+
+main div.p1{
+    width: 200px;
+    margin: 0px 40px 0px 0px ;
+    line-height: 15px;
+    font-size: 14px;
+}
+
+main div.p2{
+    display: inline-block;
+    width: 40%;
+    line-height: 35px;
+    margin: -20px 0px 0px 50px;
+}
+
+main p.desde{
+    margin: -20px 0px 0px 0px;
+}
+
+
+main h2.projetos{
+    text-align: right;
+    font-size: 60px;
+    margin: 100px 3px 0px 0px;
+    color: rgb(193, 30, 92);
+}
+
+main div.p1_historia{
+    width: 30%;
+    font-size: 14px;
+    line-height: 15px;
+    margin: 0px 0px 10px 0px;
+    font-weight: 100;
+}
+
+main div.conteiner_projetos{
+    display: flex;
+    width: 100%;
+    height: 280px;
+}
+
+main div.p_projeto{
+    text-align: justify;
+    width: 60%;
+    font-weight: 600;
+    font-size: 23px;
+    line-height: 33px;
+    color: #002e6b;
+    margin: -25px 0px 0px 50px ;
+    
+}
+
+main div>img{
+    width: 50%;
+    display: block;
+    margin: auto;
+}
+
+main p.ppp{
+    margin: 100px 0px 100px 0px;
+}
+
+main img.img_seja{
+    width: 100%;    
+}
+
+main div.nosso_club{
+    background-color: #ffef80;
+    margin: -5px 0px 0px 0px;
+    padding: 10px 0px 10px 0px;
+}
+
+main div.nosso_club > h1{
+    margin: 20px;
+    text-align: center;
+    font-size: 100px;
+    color: rgb(193, 30, 92);
+}
+
+main div.conteiner_atv{
+    display: flex;
+    justify-content: space-around;
+    margin: 0px 170px 0px 170px;
+}
+
+main div.atv{
+    border: 2px solid rgb(193, 30, 92);
+    font-size: 14px;
+    background-color: #ffef80;
+    color: rgb(193, 30, 92);
+    margin: 41px 0px 0px 0px;
+    padding: 5px 40px 5px 40px  
+}
+
+main div.lala{
+    background-color: #fff8e2;
+    margin: -80px 0px 0px 0px;
+}
+
+main p.Prosa.junte{
+    font-size: 30px;
+    text-align: justify;
+    padding: 30px 0px 0px 0px;
+}
+
+main h2.historia.club{
+    display: inline-block;
+    color: #002e6b;
+    font-size: 70px;
+    width: 400px;
+    margin: -10px 0px 0px 0px;
+}
+
+main div.p2.clubp{
+    
+}
+
+
+
+
+@media(min-width: 768px) and (max-width: 976px){
+    header h1{
+        text-align: center;
+        font-size: 90px;
+        color: white;
+        text-shadow: 7px 3px 0px rgb(30, 193, 95);
+    }
+    main div.conteiner_global{
+        margin: 70px 80px 0px 70px;
+    }
+
+    main div.conteiner{
+        width: 100%;
+        background-color: aquamarine;
+    }
+}
+
+@media(max-width: 767px){
+    header h1{
+        text-align: center;
+        font-size: 70px;
+        color: white;
+        text-shadow: 7px 3px 0px rgb(193, 71, 30);
+    }
+}
+
+
+@media(max-width: 480px){
+    header h1{
+        text-align: center;
+        font-size: 50px;
+        color: white;
+        text-shadow: 7px 3px 0px rgb(193, 30, 92);
+    }
+
+    nav{
+        display: flex;
+        justify-content: space-between;
+        margin: auto 30px;
+    }
+    
+    nav ul{
+        margin: 30px 0;
+        list-style: none;
+        display: flex;
+    }
+    
+    nav li{
+        margin: 0 15px;
+    }
+    
+    nav a{
+        text-decoration: none;
+        color: #002e6b;
+        border-radius: 5px;
+        transition-duration: 0.5s;
+    }
+      
+    nav img{
+        margin: 0 0 0 0;
+        max-width:200px;
+        max-height:150px;
+        width: auto;
+        height: auto;
+    }
+
+
+
+}
